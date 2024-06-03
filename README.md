@@ -11,6 +11,19 @@ In recent years, Large Language Models (LLMs) have demonstrated exceptional prof
 
 ## Running Parlam
 
+```python
+from transformers import 
+
+tokenizer = 
+model =
+
+```
+
 ## Citation
+
+```bibtex
+
+```
+
 
 ## License
