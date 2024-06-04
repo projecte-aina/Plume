@@ -77,7 +77,7 @@ For running experiments as outlined in section 4.2 of the paper, which evaluates
 bash ./inference/experiments_ignore_src.sh
 ```
 
-# Attention analysis
+### Attention analysis
 
 For computing the coverage we provide the following script which computes coverage for each head using Flores-200 dataset. Some variables must be defined: `checkpoint, name, model_dir`.
 
