@@ -1,15 +1,15 @@
-# Parlam
+# Plume
 
 This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
 on parallel data only". The preprint is available on [arXiv]().
 
-## About Parlam
+#### Abstract
 
 In recent years, Large Language Models (LLMs) have demonstrated exceptional proficiency across a broad spectrum of Natural Language Processing (NLP) tasks, including Machine Translation. However, previous methodologies predominantly relied on iterative processes such as instruction fine-tuning or continual pre-training, leaving unexplored the challenges of training LLMs solely on parallel data. In this work, we introduce Parlam (PARallel LAnguage Model), a collection of three 2B LLMs featuring varying vocabulary sizes (32k, 128k, and 256k) trained exclusively on  Catalan-centric parallel examples. These models perform comparable to previous encoder-decoder architectures on 16 supervised translation directions and 56 zero-shot ones. Utilizing this set of models, we conduct a thorough investigation into the translation capabilities of LLMs, probing their performance, the impact of the different elements of the prompt, and their cross-lingual representation space.
 
 ## Models Description
 
-## Running Parlam
+## Running the models
 
 ```python
 from transformers import 
@@ -124,6 +124,20 @@ bash ./representation_space/compute_distances.sh
 Pairwise distances will be saved in the corresponding folder inside `./representation_space/results` folder. We provide a jupyter notebook to visualize the computed distances: `./representation_space/Distances_Plots.ipynb`.
 
 #### Visualization
+
+To visualize token embeddings as done in section 4.3 in the paper we provide the following script which computes UMAP 2D and Spherical Voronoi Diagrams for the token representations:
+
+```bash
+bash ./representation_space/compute_umap.sh
+```
+
+Pairwise distances will be saved in the corresponding folder inside `./representation_space/results` folder. We provide a jupyter notebook to visualize the computed UMAP latent variables: `./representation_space/UMAP_Plots.ipynb` and another jupyter notebook to create the Spherical Voronoi Diagrams: `./representation_space/Voronoi_Plots.ipynb`.
+
+In addition, we provide as a zip file some Spherical Voronoi Diagrams already computed: `./representation_space/voronoi_plots_32k.zip`.
+
+### Vocabulary overlap
+
+
 
 ## Citation
 
