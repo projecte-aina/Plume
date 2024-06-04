@@ -77,6 +77,37 @@ For running experiments as outlined in section 4.2 of the paper, which evaluates
 bash ./inference/experiments_ignore_src.sh
 ```
 
+# Attention analysis
+
+For computing the coverage we provide the following script which computes coverage for each head using Flores-200 dataset. Some variables must be defined: `checkpoint, name, model_dir`.
+
+```bash
+bash ./attention_analysis/run_experiments.sh
+```
+
+This code will save as .npy files the coverage matrices which are then visualized in the following jupyter notebook: `./attention_analysis/Att_metrics_Plots.ipynb`.
+
+We also provide the following script to plot the attention matrices of the first sentence from Flores-200 dataset:
+
+```bash
+bash ./attention_analysis/get_att_matrix.sh
+```
+
+Resulting plots will be saved in the corresponding folder inside `./results`.
+
+### Heads masking
+
+We provide the code to compute the heads masking experiments from section 4.2 in the paper. Note that to mask heads we must first compute the coverage metrics as detailed in previous section and the variable `ATT_ANALYSIS_FULL_PATH` must be defined accordingly (`./attention_analysis/results`).
+
+```bash
+bash ./heads_masking/experiments.sh
+```
+
+This code will save the corresponding plots and translation examples in `./heads_masking/results` folder. We provide a jupyter notebook to visualize the results: `./heads_masking/Heads_Masking_Plots.ipynb`.
+
+### Representation space
+
+
 ## Citation
 
 ```bibtex
