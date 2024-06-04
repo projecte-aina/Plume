@@ -1,6 +1,6 @@
 <div align="center">
 
-# Plume: the first LLM trained for NMT with only parallel Catalan-Centric data from scratch
+## Plume: the first LLM trained for NMT with only parallel Catalan-Centric data from scratch
 
 #### [Javier García](https://www.bsc.es/ca/garcia-gilabert-javier), [Carlos Escolano](https://www.bsc.es/es/escolano-peinado-carlos), [Aleix Sant](https://www.bsc.es/es/sant-savall-aleix), [Francesca De Luca](https://www.bsc.es/de-luca-fornaciari-francesca), [Audrey Mash](https://www.bsc.es/mash-audrey) and [Maite Melero](https://www.bsc.es/melero-nogues-maite)
 
