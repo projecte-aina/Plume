@@ -159,10 +159,6 @@ We provide the script to compute the vocabulary overlap between pair of language
 bash ./voc_overlap/compute_overlapping.sh
 ```
 
-### Evaluation
-
-TO-DO
-
 ## Citation
 
 ```bibtex
