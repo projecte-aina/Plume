@@ -133,7 +133,7 @@ bash ./representation_space/compute_umap.sh
 
 Pairwise distances will be saved in the corresponding folder inside `./representation_space/results` folder. We provide a jupyter notebook to visualize the computed UMAP latent variables: `./representation_space/UMAP_Plots.ipynb` and another jupyter notebook to create the Spherical Voronoi Diagrams: `./representation_space/Voronoi_Plots.ipynb`.
 
-In addition, we provide as a zip file some Spherical Voronoi Diagrams already computed: `./representation_space/voronoi_plots_32k.zip`.
+In addition, we provide as a zip file with some Spherical Voronoi Diagrams that have already computed for the 32k model variant: `./representation_space/voronoi_plots_32k.zip`.
 
 ### Vocabulary overlap
 
@@ -145,5 +145,11 @@ In addition, we provide as a zip file some Spherical Voronoi Diagrams already co
 
 ```
 
+## Acknowledgements
+
+
+## Contact
+
+Please feel free to write us at with any questions you may have to {javier.garcia1, carlos.escolano, aleix.santsavall, francesca.delucafornaciari, audrey.mash, maite.melero}@bsc.es 
 
 ## License
