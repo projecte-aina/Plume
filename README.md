@@ -1,4 +1,4 @@
-# Plume
+# Plume :feather:
 
 This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
 on parallel data only". The preprint is available on [arXiv]().
