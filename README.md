@@ -19,6 +19,31 @@ model =
 
 ```
 
+## Running experiments
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Tokenizer
+
+The following scripts will create the tokenizers. Note that the folder `./tokenizer/samplings/` must contain a txt file for each language.
+
+```bash
+bash ./tokenizer/create_tokenizer_over_eus_deu_eng_1M.sh
+bash ./tokenizer/create_tokenizer_equal_1M.sh
+```
+
+The following script will compute all the metrics used to evaluate the tokenizers and will save it in `./tokenizer/assets/`
+
+```bash
+bash ./tokenizer/compute_tokenizations.sh
+```
+
+Results are visualized in the following jupyter notebook: `./tokenizer/Fertility_Plots.ipynb`.
+
 ## Citation
 
 ```bibtex

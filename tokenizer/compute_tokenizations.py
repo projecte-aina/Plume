@@ -17,28 +17,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 tokenizers_names = [  ('unigram', 'sampling_equal', 1, 32000), ('unigram', 'sampling_equal', 1, 128000), ('unigram', 'sampling_equal', 1, 256000),
-                      ('unigram', 'sampling_equal', 2, 32000), ('unigram', 'sampling_equal', 2, 128000), ('unigram', 'sampling_equal', 2, 256000),
-                      ('unigram', 'sampling_equal', 4, 32000), ('unigram', 'sampling_equal', 4, 128000), ('unigram', 'sampling_equal', 4, 256000),
-                      ('unigram', 'sampling_equal', 6, 32000), ('unigram', 'sampling_equal', 6, 128000), ('unigram', 'sampling_equal', 6, 256000),
                       ('bpe', 'sampling_equal', 1, 32000), ('bpe', 'sampling_equal', 1, 128000), ('bpe', 'sampling_equal', 1, 256000),
-                      ('bpe', 'sampling_equal', 2, 32000), ('bpe', 'sampling_equal', 2, 128000), ('bpe', 'sampling_equal', 2, 256000),
-                      ('bpe', 'sampling_equal', 4, 32000), ('bpe', 'sampling_equal', 4, 128000), ('bpe', 'sampling_equal', 4, 256000),
-                      ('bpe', 'sampling_equal', 6, 32000), ('bpe', 'sampling_equal', 6, 128000), ('bpe', 'sampling_equal', 6, 256000),
-
-                      ('unigram', 'sampling_over_eus', 1, 32000), ('unigram', 'sampling_over_eus', 1, 128000), ('unigram', 'sampling_over_eus', 1, 256000),
-                      ('bpe', 'sampling_over_eus', 1, 32000), ('bpe', 'sampling_over_eus', 1, 128000), ('bpe', 'sampling_over_eus', 1, 256000),
-
-                      ('unigram', 'sampling_over_eus_eng', 1, 32000), ('unigram', 'sampling_over_eus_eng', 1, 128000), ('unigram', 'sampling_over_eus_eng', 1, 256000),
-                      ('bpe', 'sampling_over_eus_eng', 1, 32000), ('bpe', 'sampling_over_eus_eng', 1, 128000), ('bpe', 'sampling_over_eus_eng', 1, 256000),
-
-                      ('unigram', 'sampling_over_eus2', 1, 32000), ('unigram', 'sampling_over_eus2', 1, 128000), ('unigram', 'sampling_over_eus2', 1, 256000),
-                      ('bpe', 'sampling_over_eus2', 1, 32000), ('bpe', 'sampling_over_eus2', 1, 128000), ('bpe', 'sampling_over_eus2', 1, 256000),
-
                       ('unigram', 'sampling_over_eus_deu_eng', 1, 32000), ('unigram', 'sampling_over_eus_deu_eng', 1, 128000), ('unigram', 'sampling_over_eus_deu_eng', 1, 256000),
                       ('bpe', 'sampling_over_eus_deu_eng', 1, 32000), ('bpe', 'sampling_over_eus_deu_eng', 1, 128000), ('bpe', 'sampling_over_eus_deu_eng', 1, 256000),
-
-                      ('unigram', 'sampling_over_eus3', 1, 32000), ('unigram', 'sampling_over_eus3', 1, 128000), ('unigram', 'sampling_over_eus3', 1, 256000),
-                      ('bpe', 'sampling_over_eus3', 1, 32000), ('bpe', 'sampling_over_eus3', 1, 128000), ('bpe', 'sampling_over_eus3', 1, 256000),
                     ]
 
 tokenizers_paths = ['./tokenizers/{}.{}_{}M/size_{}/tokenizer_fast/'.format(type_alg, sampling, size, vocab_size) for type_alg, sampling, size, vocab_size in tokenizers_names]
