@@ -42,7 +42,22 @@ The following script will compute all the metrics used to evaluate the tokenizer
 bash ./tokenizer/compute_tokenizations.sh
 ```
 
-Results are visualized in the following jupyter notebook: `./tokenizer/Fertility_Plots.ipynb`.
+Results are visualized in the following jupyter notebook: `./tokenizer/Fertility_Plots.ipynb`
+
+
+### Training
+
+The following scripts will execute model training using DeepSpeed (ZeRO stage 2). For training we used 40 NVIDIA H100-64GB GPUs with full float32 precision. Note that some variables must be defined in the script, namely: `HF_DATASETS_CACHE, HF_HOME, TOKENIZER_PATH, VOCAB_SIZE, DATASET_PATH`. This code will automatically tokenize the data given a HF dataset.
+
+```bash
+bash ./training/parlam_distributed.sh
+```
+
+This script will save DeepSpeed checkpoints in `./training/output/` folder which can be converted to HF checkpoints using the following script:
+
+```bash
+bash ./training/output/convert.sh
+```
 
 ## Citation
 

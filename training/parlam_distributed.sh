@@ -20,7 +20,7 @@ export MASTER_PORT=9901
 TOKENIZER_PATH=''
 VOCAB_SIZE=32000
 DATASET_PATH=''
-DS_CONFIG=''
+DS_CONFIG='./ds_configs/ds_parlam_distributed.json'
 
 export CMD="torchrun \
 	--nproc_per_node $GPUS_PER_NODE --nnodes $SLURM_NNODES --rdzv_id=$SLURM_JOB_ID \
