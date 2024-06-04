@@ -47,7 +47,7 @@ Results are visualized in the following jupyter notebook: `./tokenizer/Fertility
 
 ### Training
 
-The following scripts will execute model training using DeepSpeed (ZeRO stage 2). For training we used 40 NVIDIA H100-64GB GPUs with full float32 precision. Note that some variables must be defined in the script, namely: `HF_DATASETS_CACHE, HF_HOME, TOKENIZER_PATH, VOCAB_SIZE, DATASET_PATH`. This code will automatically tokenize the data given a HF dataset.
+The following script will execute model training using DeepSpeed (ZeRO stage 2). For training we used 40 NVIDIA H100-64GB GPUs with full float32 precision. Note that some variables must be defined in the script, namely: `HF_DATASETS_CACHE, HF_HOME, TOKENIZER_PATH, VOCAB_SIZE, DATASET_PATH`. This code will automatically tokenize the data given a HF dataset.
 
 ```bash
 bash ./training/parlam_distributed.sh
@@ -107,6 +107,23 @@ This code will save the corresponding plots and translation examples in `./heads
 
 ### Representation space
 
+#### Distances 
+
+We provide the scripts to compute the distances between layers. First, we extract the model's representations using the following script. Note that some variables must be pre-defined: `model_dir, name_model`.
+
+```bash
+bash ./representation_space/extract_representations.sh
+```
+
+This will save the extracted token representations for each language as numpy files in `./representation_space/results` folder. Then, to compute distances we provide the following script:
+
+```bash
+bash ./representation_space/compute_distances.sh
+```
+
+Pairwise distances will be saved in the corresponding folder inside `./representation_space/results` folder. We provide a jupyter notebook to visualize the computed distances: `./representation_space/Distances_Plots.ipynb`.
+
+#### Visualization
 
 ## Citation
 
