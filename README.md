@@ -71,7 +71,7 @@ bash ./inference/experiments.sh
 
 Translations will be saved in `./inference/translations/` folder.
 
-In order to run the experiments from section 4.2 in the paper which are evaluating the models without indicating the source tag we provide the following script:
+For running experiments as outlined in section 4.2 of the paper, which evaluates models without indicating the source tag, utilize the provided script:
 
 ```bash
 bash ./inference/experiments_ignore_src.sh
