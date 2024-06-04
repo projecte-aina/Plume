@@ -2,7 +2,7 @@
 
 # Plume: the first LLM trained for NMT with only parallel Catalan-Centric data from scratch
 
-### [Javier García](https://www.bsc.es/ca/garcia-gilabert-javier), [Carlos Escolano](https://www.bsc.es/es/escolano-peinado-carlos), [Aleix Sant](https://www.bsc.es/es/sant-savall-aleix), [Francesca De Luca](https://www.bsc.es/de-luca-fornaciari-francesca), [Audrey Mash](https://www.bsc.es/mash-audrey) and [Maite Melero](https://www.bsc.es/melero-nogues-maite)
+#### [Javier García](https://www.bsc.es/ca/garcia-gilabert-javier), [Carlos Escolano](https://www.bsc.es/es/escolano-peinado-carlos), [Aleix Sant](https://www.bsc.es/es/sant-savall-aleix), [Francesca De Luca](https://www.bsc.es/de-luca-fornaciari-francesca), [Audrey Mash](https://www.bsc.es/mash-audrey) and [Maite Melero](https://www.bsc.es/melero-nogues-maite)
 
 [![python](https://img.shields.io/badge/-Python_3.10-blue?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3100/)
 [![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
