@@ -53,11 +53,13 @@ The following scripts will execute model training using DeepSpeed (ZeRO stage 2)
 bash ./training/parlam_distributed.sh
 ```
 
-This script will save DeepSpeed checkpoints in `./training/output/` folder which can be converted to HF checkpoints using the following script:
+DeepSpeed checkpoints will be saved in `./training/output/` folder that can be converted to HF checkpoints using the following script:
 
 ```bash
 bash ./training/output/convert.sh
 ```
+
+Converting DeepSpeed checkpoints is required to run the remaining experiments.
 
 ## Citation
 
