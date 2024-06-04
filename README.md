@@ -1,5 +1,3 @@
-# Plume
-
 <div align="center">
 
 # Plume: the first LLM trained for NMT with only parallel Catalan-Centric data from scratch
