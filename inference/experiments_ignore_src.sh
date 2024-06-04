@@ -18,6 +18,7 @@ flores_devtest_dir="./flores200_dataset/devtest"
 src_langs=('spa_Latn' 'eng_Latn' 'fra_Latn' 'ita_Latn' 'cat_Latn' 'por_Latn' 'deu_Latn' 'eus_Latn' 'glg_Latn')
 tgt_langs=('spa_Latn' 'eng_Latn' 'fra_Latn' 'ita_Latn' 'cat_Latn' 'por_Latn' 'deu_Latn' 'eus_Latn' 'glg_Latn')
 
+# Path to converted deepspeed checkpoints
 model_dir=""
 # Name of the model output
 name_model="checkpoint-${checkpoint}_${name}"

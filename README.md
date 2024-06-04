@@ -61,6 +61,22 @@ bash ./training/output/convert.sh
 
 Converting DeepSpeed checkpoints is required to run the remaining experiments.
 
+### Inference
+
+The following script is used to translate the Flores-200 dataset using the trained model. Some variables must be defined. Specifically: `checkpoint, name, vocab_size, model_dir`. For inference we use beam search with a beam size of 5 limiting the number of tokens to 512.
+
+```bash
+bash ./inference/experiments.sh
+```
+
+Translations will be saved in `./inference/translations/` folder.
+
+In order to run the experiments from section 4.2 in the paper which are evaluating the models without indicating the source tag we provide the following script:
+
+```bash
+bash ./inference/experiments_ignore_src.sh
+```
+
 ## Citation
 
 ```bibtex
