@@ -6,6 +6,8 @@
 
 [![python](https://img.shields.io/badge/-Python_3.10-blue?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3100/)
 [![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+[![license](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]()
+
 </div>
 
 > This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
