@@ -1,6 +1,16 @@
 # Plume
 
-This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
+<div align="center">
+
+# Plume: the first LLM trained for NMT with only parallel Catalan-Centric data from scratch
+
+### [Javier García](https://www.bsc.es/ca/garcia-gilabert-javier), [Carlos Escolano](https://www.bsc.es/es/escolano-peinado-carlos), [Aleix Sant](https://www.bsc.es/es/sant-savall-aleix), [Francesca De Luca](https://www.bsc.es/de-luca-fornaciari-francesca), [Audrey Mash](https://www.bsc.es/mash-audrey) and [Maite Melero](https://www.bsc.es/melero-nogues-maite)
+
+[![python](https://img.shields.io/badge/-Python_3.10-blue?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3100/)
+[![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+</div>
+
+> This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
 on parallel data only". The preprint is available on [arXiv]().
 
 #### Abstract
@@ -8,6 +18,12 @@ on parallel data only". The preprint is available on [arXiv]().
 In recent years, Large Language Models (LLMs) have demonstrated exceptional proficiency across a broad spectrum of Natural Language Processing (NLP) tasks, including Machine Translation. However, previous methodologies predominantly relied on iterative processes such as instruction fine-tuning or continual pre-training, leaving unexplored the challenges of training LLMs solely on parallel data. In this work, we introduce Parlam (PARallel LAnguage Model), a collection of three 2B LLMs featuring varying vocabulary sizes (32k, 128k, and 256k) trained exclusively on  Catalan-centric parallel examples. These models perform comparable to previous encoder-decoder architectures on 16 supervised translation directions and 56 zero-shot ones. Utilizing this set of models, we conduct a thorough investigation into the translation capabilities of LLMs, probing their performance, the impact of the different elements of the prompt, and their cross-lingual representation space.
 
 ## Models Description
+
+Plume is the first LLM trained for Neural Machine Translation with only parallel Catalan-Centric data from scratch. It is a language model with the same architecture as Gemma 2B. The model is trained for general translation tasks at sentence level. Information about training, architecture and interpretability of the model are described in the paper.
+
+- **Developed by:** Machine Translation Unit at the Barcelona Supercomputing Center (BSC).
+- **Languages:** Spanish, French, Italian, Portuguese, Galician, German, English, and Basque.
+- **License:** Apache License, Version 2.0
 
 ## Running the models
 
