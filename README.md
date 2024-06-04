@@ -153,7 +153,15 @@ In addition, we provide as a zip file with some Spherical Voronoi Diagrams that 
 
 ### Vocabulary overlap
 
+We provide the script to compute the vocabulary overlap between pair of languages:
 
+```bash
+bash ./voc_overlap/compute_overlapping.sh
+```
+
+### Evaluation
+
+TO-DO
 
 ## Citation
 
