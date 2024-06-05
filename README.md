@@ -2,7 +2,7 @@
 
 ## Plume: the first LLM trained for NMT with only parallel Catalan-Centric data from scratch
 
-#### [Javier García](https://www.bsc.es/ca/garcia-gilabert-javier), [Carlos Escolano](https://www.bsc.es/es/escolano-peinado-carlos), [Aleix Sant](https://www.bsc.es/es/sant-savall-aleix), [Francesca De Luca](https://www.bsc.es/de-luca-fornaciari-francesca), [Audrey Mash](https://www.bsc.es/mash-audrey) and [Maite Melero](https://www.bsc.es/melero-nogues-maite)
+#### [Javier García](https://www.bsc.es/ca/garcia-gilabert-javier), [Carlos Escolano](https://www.bsc.es/es/escolano-peinado-carlos), [Aleix Sant](https://www.bsc.es/es/sant-savall-aleix), [Francesca De Luca](https://www.bsc.es/de-luca-fornaciari-francesca), [Audrey Mash](https://www.bsc.es/mash-audrey), [Xixian Liao](https://www.bsc.es/es/liao-xixian) and [Maite Melero](https://www.bsc.es/melero-nogues-maite)
 
 <div align="center">
    <img src="figs/logo_plume.png" alt="plume logo" width="100"><br><br>
@@ -174,6 +174,6 @@ bash ./voc_overlap/compute_overlapping.sh
 
 ## Contact
 
-Please feel free to write us at with any questions you may have to {javier.garcia1, carlos.escolano, aleix.santsavall, francesca.delucafornaciari, audrey.mash, maite.melero}@bsc.es 
+Please feel free to write us at with any questions you may have to {javier.garcia1, carlos.escolano, aleix.santsavall, francesca.delucafornaciari, audrey.mash, xixian.liao, maite.melero}@bsc.es 
 
 ## License
