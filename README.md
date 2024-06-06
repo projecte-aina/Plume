@@ -171,6 +171,11 @@ bash ./voc_overlap/compute_overlapping.sh
 
 ## Acknowledgements
 
+This work/research has been promoted and financed by the Government of Catalonia through the [Aina project](https://projecteaina.cat/).
+
+Aquest/a resultat/publicació ha estat impulsat/da i finançat/da per la Generalitat de Catalunya mitjançant el [projecte Aina](https://projecteaina.cat/).
+
+Esta/e publicación/resultado ha sido impulsada/o y financiada/o por la Generalitat de Catalunya mediante el [proyecto Aina](https://projecteaina.cat/).
 
 ## Contact
 
