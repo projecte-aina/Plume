@@ -32,11 +32,21 @@ Plume is the first LLM trained for Neural Machine Translation with only parallel
 ## Running the models
 
 ```python
-from transformers import 
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = 
-model =
+model_id = "projecte-aina/Plume32k" # "projecte-aina/Plume128k" "projecte-aina/Plume256k"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(model_id)
 
+src_lang_code = 'spa_Latn'
+tgt_lang_code = 'cat_Latn'
+sentence = 'Ayer se fue, tomó sus cosas y se puso a navegar.'
+prompt = '<s> [{}] {} \n[{}]'.format(src_lang_code, sentence, tgt_lang_code)
+input_ids = tokenizer(prompt, return_tensors='pt').input_ids
+output_ids = model.generate( input_ids, max_length=200, num_beams=5 )
+input_length = input_ids.shape[1]
+generated_text = tokenizer.decode(output_ids[0, input_length: ], skip_special_tokens=True).strip()
+# Ahir se'n va anar, va agafar les seves coses i es va posar a navegar.
 ```
 
 ## Running experiments
