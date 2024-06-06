@@ -38,6 +38,9 @@ model_id = "projecte-aina/Plume32k" # "projecte-aina/Plume128k" "projecte-aina/P
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(model_id)
 
+# language codes: spa_Latn (Spanish), cat_Latn (Catalan), eng_Latn (English), ita_Latn (Italian), 
+# eus_Latn (Basque), deu_Latn (German), por_Latn (Portuguese), glg_Latn (Galician), fra_Latn (French)
+
 src_lang_code = 'spa_Latn'
 tgt_lang_code = 'cat_Latn'
 sentence = 'Ayer se fue, tomó sus cosas y se puso a navegar.'
