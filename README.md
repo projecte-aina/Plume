@@ -25,7 +25,7 @@ In recent years, Large Language Models (LLMs) have demonstrated exceptional prof
 
 Plume is the first LLM trained for Neural Machine Translation with only parallel Catalan-Centric data from scratch. It is a language model with the same architecture as Gemma 2B. The model is trained for general translation tasks at sentence level. Information about training, architecture and interpretability of the model are described in the paper.
 
-- **Developed by:** Machine Translation Unit at the Barcelona Supercomputing Center (BSC).
+- **Developed by:** The Language Technologies Unit from Barcelona Supercomputing Center (BSC).
 - **Languages:** Spanish, French, Italian, Portuguese, Galician, German, English, and Basque.
 - **License:** Apache License, Version 2.0
 
