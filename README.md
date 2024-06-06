@@ -195,3 +195,5 @@ Esta/e publicación/resultado ha sido impulsada/o y financiada/o por la Generali
 Please feel free to write us at with any questions you may have to {javier.garcia1, carlos.escolano, aleix.santsavall, francesca.delucafornaciari, audrey.mash, xixian.liao, maite.melero}@bsc.es 
 
 ## License
+
+[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
