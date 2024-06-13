@@ -15,7 +15,7 @@
 </div>
 
 > This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
-on parallel data only". The preprint is available on [arXiv]() and models are available at HuggingFace 🤗: [Plume 32k](https://huggingface.co/projecte-aina/Plume32k), [Plume 128k](https://huggingface.co/projecte-aina/Plume128k) and [Plume 256k].(https://huggingface.co/projecte-aina/Plume256k)
+on parallel data only". The preprint is available on [arXiv]() and models are available at HuggingFace 🤗: [Plume 32k](https://huggingface.co/projecte-aina/Plume32k), [Plume 128k](https://huggingface.co/projecte-aina/Plume128k) and [Plume 256k](https://huggingface.co/projecte-aina/Plume256k).
 
 #### Abstract
 
