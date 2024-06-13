@@ -184,7 +184,7 @@ bash ./voc_overlap/compute_overlapping.sh
 
 ## Acknowledgements
 
-This work has been promoted and financed by the Government of Catalonia through the [Aina project](https://projecteaina.cat/), by the Ministerio para la Transformación Digital y de la Función Pública and Plan de Recuperación, Transformación y Resiliencia - Funded by EU – NextGenerationEU within the framework of [the project ILENIA](https://proyectoilenia.es/) with reference 2022/TL22/00215337, 2022/TL22/00215336, 2022/TL22/00215335, 2022/TL22/00215334, as well as by [DeepR3](https://ixa2.si.ehu.eus/deepr3/) (TED2021-130295B-C32) founded by MCIN/AEI/10.13039/501100011033 and European Union NextGeneration EU/PRTR.
+This work has been promoted and financed by the Government of Catalonia through the [Aina](https://projecteaina.cat/) project, by the Ministerio para la Transformación Digital y de la Función Pública and Plan de Recuperación, Transformación y Resiliencia - Funded by EU – NextGenerationEU within the framework of the project [ILENIA](https://proyectoilenia.es/) with reference 2022/TL22/00215337, 2022/TL22/00215336, 2022/TL22/00215335, 2022/TL22/00215334, as well as by [DeepR3](https://ixa2.si.ehu.eus/deepr3/) (TED2021-130295B-C32) founded by MCIN/AEI/10.13039/501100011033 and European Union NextGeneration EU/PRTR.
 
 ## Contact
 
