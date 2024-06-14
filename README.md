@@ -15,7 +15,7 @@
 </div>
 
 > This repository contains the code for the paper "Investigating the translation capabilities of Large Language Models trained
-on parallel data only". The preprint is available on [arXiv]() and models are available at HuggingFace 🤗: [Plume 32k](https://huggingface.co/projecte-aina/Plume32k), [Plume 128k](https://huggingface.co/projecte-aina/Plume128k) and [Plume 256k](https://huggingface.co/projecte-aina/Plume256k).
+on parallel data only". The preprint is available on [arXiv](https://arxiv.org/abs/2406.09140) and models are available at HuggingFace 🤗: [Plume 32k](https://huggingface.co/projecte-aina/Plume32k), [Plume 128k](https://huggingface.co/projecte-aina/Plume128k) and [Plume 256k](https://huggingface.co/projecte-aina/Plume256k).
 
 #### Abstract
 
@@ -179,7 +179,13 @@ bash ./voc_overlap/compute_overlapping.sh
 ## Citation
 
 ```bibtex
-
+@misc{gilabert2024investigating,
+      title={Investigating the translation capabilities of Large Language Models trained on parallel data only}, 
+      author={Javier García Gilabert and Carlos Escolano and Aleix Sant Savall and Francesca De Luca Fornaciari and Audrey Mash and Xixian Liao and Maite Melero},
+      year={2024},
+      eprint={2406.09140},
+      archivePrefix={arXiv}
+}
 ```
 
 ## Acknowledgements
